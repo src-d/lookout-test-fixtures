@@ -1,19 +1,19 @@
 package fixtures
 
 import (
-	"github.com/src-d/lookout"
+	"github.com/src-d/lookout-sdk/pb"
 )
 
 var fixtures = Fixtures{
 	{
 		Name: "new-go-file-too-long-line",
-		CommitRevision: lookout.CommitRevision{
-			Base: lookout.ReferencePointer{
+		CommitRevision: pb.CommitRevision{
+			Base: pb.ReferencePointer{
 				InternalRepositoryURL: "https://github.com/src-d/lookout-test-fixtures",
 				ReferenceName:         "refs/heads/master",
 				Hash:                  "6a92946068897d0a6f6ffa6457f889163dcc51b5",
 			},
-			Head: lookout.ReferencePointer{
+			Head: pb.ReferencePointer{
 				InternalRepositoryURL: "https://github.com/src-d/lookout-test-fixtures",
 				ReferenceName:         "refs/heads/new_go_file",
 				Hash:                  "f47f238d1734881b17e6000cb9fd01248073c900",
@@ -25,13 +25,13 @@ var fixtures = Fixtures{
 	},
 	{
 		Name: "file-delete",
-		CommitRevision: lookout.CommitRevision{
-			Base: lookout.ReferencePointer{
+		CommitRevision: pb.CommitRevision{
+			Base: pb.ReferencePointer{
 				InternalRepositoryURL: "https://github.com/src-d/lookout-test-fixtures",
 				ReferenceName:         "refs/heads/master",
 				Hash:                  "c6e7417ff3b84560f44fe940876494f58e6d68f1",
 			},
-			Head: lookout.ReferencePointer{
+			Head: pb.ReferencePointer{
 				InternalRepositoryURL: "https://github.com/src-d/lookout-test-fixtures",
 				ReferenceName:         "refs/heads/remove_file",
 				Hash:                  "d0b400aab40eff88066fbe9e27f8aa64f5530538",
@@ -43,13 +43,13 @@ var fixtures = Fixtures{
 	},
 	{
 		Name: "file-rename",
-		CommitRevision: lookout.CommitRevision{
-			Base: lookout.ReferencePointer{
+		CommitRevision: pb.CommitRevision{
+			Base: pb.ReferencePointer{
 				InternalRepositoryURL: "https://github.com/src-d/lookout-test-fixtures",
 				ReferenceName:         "refs/heads/master",
 				Hash:                  "6a92946068897d0a6f6ffa6457f889163dcc51b5",
 			},
-			Head: lookout.ReferencePointer{
+			Head: pb.ReferencePointer{
 				InternalRepositoryURL: "https://github.com/src-d/lookout-test-fixtures",
 				ReferenceName:         "refs/heads/rename_file",
 				Hash:                  "6221d2fe0bc2148debfa8d3c8c92b8c15451920d",
@@ -61,13 +61,13 @@ var fixtures = Fixtures{
 	},
 	{
 		Name: "bblfsh-unknown-language",
-		CommitRevision: lookout.CommitRevision{
-			Base: lookout.ReferencePointer{
+		CommitRevision: pb.CommitRevision{
+			Base: pb.ReferencePointer{
 				InternalRepositoryURL: "https://github.com/src-d/lookout-test-fixtures",
 				ReferenceName:         "refs/heads/master",
 				Hash:                  "6a92946068897d0a6f6ffa6457f889163dcc51b5",
 			},
-			Head: lookout.ReferencePointer{
+			Head: pb.ReferencePointer{
 				InternalRepositoryURL: "https://github.com/src-d/lookout-test-fixtures",
 				ReferenceName:         "refs/heads/bblfsh_unknown_lang",
 				Hash:                  "8bc4f2b51be093d261a5ea58e390bc94c1ca3401",
@@ -79,13 +79,13 @@ var fixtures = Fixtures{
 	},
 	{
 		Name: "not-ff-merge",
-		CommitRevision: lookout.CommitRevision{
-			Base: lookout.ReferencePointer{
+		CommitRevision: pb.CommitRevision{
+			Base: pb.ReferencePointer{
 				InternalRepositoryURL: "https://github.com/src-d/lookout-test-fixtures",
 				ReferenceName:         "refs/heads/i197-base",
 				Hash:                  "1f5664bfe6a04a33b6de17a4df0b051d7a43b918",
 			},
-			Head: lookout.ReferencePointer{
+			Head: pb.ReferencePointer{
 				InternalRepositoryURL: "https://github.com/src-d/lookout-test-fixtures",
 				ReferenceName:         "refs/heads/i197-head",
 				Hash:                  "5fe468b62112e69bae390051e990271f7b1cc294",
@@ -97,13 +97,13 @@ var fixtures = Fixtures{
 	},
 	{
 		Name: "merge-conflict",
-		CommitRevision: lookout.CommitRevision{
-			Base: lookout.ReferencePointer{
+		CommitRevision: pb.CommitRevision{
+			Base: pb.ReferencePointer{
 				InternalRepositoryURL: "https://github.com/src-d/lookout-test-fixtures",
 				ReferenceName:         "refs/heads/master",
 				Hash:                  "6a92946068897d0a6f6ffa6457f889163dcc51b5",
 			},
-			Head: lookout.ReferencePointer{
+			Head: pb.ReferencePointer{
 				InternalRepositoryURL: "https://github.com/src-d/lookout-test-fixtures",
 				ReferenceName:         "refs/heads/merge_conflict",
 				Hash:                  "72745c8f112cff929927dd12a3decf45239c30e2",
@@ -115,13 +115,13 @@ var fixtures = Fixtures{
 	},
 	{
 		Name: "no-content-changes",
-		CommitRevision: lookout.CommitRevision{
-			Base: lookout.ReferencePointer{
+		CommitRevision: pb.CommitRevision{
+			Base: pb.ReferencePointer{
 				InternalRepositoryURL: "https://github.com/src-d/lookout-test-fixtures",
 				ReferenceName:         "refs/heads/master",
 				Hash:                  "6a92946068897d0a6f6ffa6457f889163dcc51b5",
 			},
-			Head: lookout.ReferencePointer{
+			Head: pb.ReferencePointer{
 				InternalRepositoryURL: "https://github.com/src-d/lookout-test-fixtures",
 				ReferenceName:         "refs/heads/no_changes",
 				Hash:                  "db7473f2d158b05550c7424f249840ad30f43dc2",
@@ -133,13 +133,13 @@ var fixtures = Fixtures{
 	},
 	{
 		Name: "config-empty",
-		CommitRevision: lookout.CommitRevision{
-			Base: lookout.ReferencePointer{
+		CommitRevision: pb.CommitRevision{
+			Base: pb.ReferencePointer{
 				InternalRepositoryURL: "https://github.com/src-d/lookout-test-fixtures",
 				ReferenceName:         "refs/heads/master",
 				Hash:                  "6a92946068897d0a6f6ffa6457f889163dcc51b5",
 			},
-			Head: lookout.ReferencePointer{
+			Head: pb.ReferencePointer{
 				InternalRepositoryURL: "https://github.com/src-d/lookout-test-fixtures",
 				ReferenceName:         "refs/heads/config_empty",
 				Hash:                  "8a3e52d451483fe50fefe801f5b7715fce82d4f1",
@@ -151,13 +151,13 @@ var fixtures = Fixtures{
 	},
 	{
 		Name: "config-unknown-analyzer",
-		CommitRevision: lookout.CommitRevision{
-			Base: lookout.ReferencePointer{
+		CommitRevision: pb.CommitRevision{
+			Base: pb.ReferencePointer{
 				InternalRepositoryURL: "https://github.com/src-d/lookout-test-fixtures",
 				ReferenceName:         "refs/heads/master",
 				Hash:                  "6a92946068897d0a6f6ffa6457f889163dcc51b5",
 			},
-			Head: lookout.ReferencePointer{
+			Head: pb.ReferencePointer{
 				InternalRepositoryURL: "https://github.com/src-d/lookout-test-fixtures",
 				ReferenceName:         "refs/heads/config_unknown_analyzer",
 				Hash:                  "f125c7577f200c4498df840f518c96dc68396266",
@@ -169,13 +169,13 @@ var fixtures = Fixtures{
 	},
 	{
 		Name: "submodule-add",
-		CommitRevision: lookout.CommitRevision{
-			Base: lookout.ReferencePointer{
+		CommitRevision: pb.CommitRevision{
+			Base: pb.ReferencePointer{
 				InternalRepositoryURL: "https://github.com/src-d/lookout-test-fixtures",
 				ReferenceName:         "refs/heads/master",
 				Hash:                  "6a92946068897d0a6f6ffa6457f889163dcc51b5",
 			},
-			Head: lookout.ReferencePointer{
+			Head: pb.ReferencePointer{
 				InternalRepositoryURL: "https://github.com/src-d/lookout-test-fixtures",
 				ReferenceName:         "refs/heads/submodule_add",
 				Hash:                  "689355891e2ce74e37439574bf1b0af46c9428ed",
@@ -187,13 +187,13 @@ var fixtures = Fixtures{
 	},
 	{
 		Name: "submodule-update",
-		CommitRevision: lookout.CommitRevision{
-			Base: lookout.ReferencePointer{
+		CommitRevision: pb.CommitRevision{
+			Base: pb.ReferencePointer{
 				InternalRepositoryURL: "https://github.com/src-d/lookout-test-fixtures",
 				ReferenceName:         "refs/heads/master",
 				Hash:                  "6a92946068897d0a6f6ffa6457f889163dcc51b5",
 			},
-			Head: lookout.ReferencePointer{
+			Head: pb.ReferencePointer{
 				InternalRepositoryURL: "https://github.com/src-d/lookout-test-fixtures",
 				ReferenceName:         "refs/heads/submodule_update",
 				Hash:                  "88560a7f9a4e54f7a8d83313dad6be31cb986d2f",
@@ -214,7 +214,7 @@ type PullRequest struct {
 // Fixture is struct for a test case
 type Fixture struct {
 	Name           string
-	CommitRevision lookout.CommitRevision
+	CommitRevision pb.CommitRevision
 	PR             PullRequest
 }
 
