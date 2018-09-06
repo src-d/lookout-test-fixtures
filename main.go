@@ -1,9 +1,6 @@
 package fixtures
 
 import (
-	"strconv"
-	"strings"
-
 	"github.com/src-d/lookout"
 )
 
@@ -219,33 +216,6 @@ type Fixture struct {
 	Name           string
 	CommitRevision lookout.CommitRevision
 	PR             PullRequest
-}
-
-// ReviewEvent creates fake review event with information from fixture
-func (f *Fixture) ReviewEvent(provider string) lookout.ReviewEvent {
-	var number uint32 = 1
-	if f.PR.URL != "" {
-		parts := strings.Split(f.PR.URL, "/")
-		n, _ := strconv.ParseUint(parts[len(parts)-1], 10, 32)
-		number = uint32(n)
-	}
-
-	return lookout.ReviewEvent{
-		Provider:       provider,
-		InternalID:     f.Name,
-		IsMergeable:    true,
-		Number:         number,
-		CommitRevision: f.CommitRevision,
-	}
-}
-
-// PushEvent creates fake push event with information from fixture
-func (f *Fixture) PushEvent(provider string) lookout.PushEvent {
-	return lookout.PushEvent{
-		Provider:       provider,
-		InternalID:     f.Name,
-		CommitRevision: f.CommitRevision,
-	}
 }
 
 // Fixtures is a list of fixtures
