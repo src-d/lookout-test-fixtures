@@ -9,22 +9,21 @@ import (
 
 var fixtures = Fixtures{
 	{
-		// FIXME, use another branch and create a PR for it
-		Name: "too-long-line",
+		Name: "new-go-file-too-long-line",
 		CommitRevision: lookout.CommitRevision{
 			Base: lookout.ReferencePointer{
 				InternalRepositoryURL: "https://github.com/src-d/lookout-test-fixtures",
 				ReferenceName:         "refs/heads/master",
-				Hash:                  "c6e7417ff3b84560f44fe940876494f58e6d68f1",
+				Hash:                  "6a92946068897d0a6f6ffa6457f889163dcc51b5",
 			},
 			Head: lookout.ReferencePointer{
 				InternalRepositoryURL: "https://github.com/src-d/lookout-test-fixtures",
-				ReferenceName:         "refs/heads/master",
-				Hash:                  "6a92946068897d0a6f6ffa6457f889163dcc51b5",
+				ReferenceName:         "refs/heads/new_go_file",
+				Hash:                  "f47f238d1734881b17e6000cb9fd01248073c900",
 			},
 		},
 		PR: PullRequest{
-			URL: "",
+			URL: "https://github.com/src-d/lookout-test-fixtures/pull/14",
 		},
 	},
 	{
@@ -97,6 +96,114 @@ var fixtures = Fixtures{
 		},
 		PR: PullRequest{
 			URL: "https://github.com/src-d/lookout-test-fixtures/pull/1",
+		},
+	},
+	{
+		Name: "merge-conflict",
+		CommitRevision: lookout.CommitRevision{
+			Base: lookout.ReferencePointer{
+				InternalRepositoryURL: "https://github.com/src-d/lookout-test-fixtures",
+				ReferenceName:         "refs/heads/master",
+				Hash:                  "6a92946068897d0a6f6ffa6457f889163dcc51b5",
+			},
+			Head: lookout.ReferencePointer{
+				InternalRepositoryURL: "https://github.com/src-d/lookout-test-fixtures",
+				ReferenceName:         "refs/heads/merge_conflict",
+				Hash:                  "72745c8f112cff929927dd12a3decf45239c30e2",
+			},
+		},
+		PR: PullRequest{
+			URL: "https://github.com/src-d/lookout-test-fixtures/pull/7",
+		},
+	},
+	{
+		Name: "no-content-changes",
+		CommitRevision: lookout.CommitRevision{
+			Base: lookout.ReferencePointer{
+				InternalRepositoryURL: "https://github.com/src-d/lookout-test-fixtures",
+				ReferenceName:         "refs/heads/master",
+				Hash:                  "6a92946068897d0a6f6ffa6457f889163dcc51b5",
+			},
+			Head: lookout.ReferencePointer{
+				InternalRepositoryURL: "https://github.com/src-d/lookout-test-fixtures",
+				ReferenceName:         "refs/heads/no_changes",
+				Hash:                  "db7473f2d158b05550c7424f249840ad30f43dc2",
+			},
+		},
+		PR: PullRequest{
+			URL: "https://github.com/src-d/lookout-test-fixtures/pull/8",
+		},
+	},
+	{
+		Name: "config-empty",
+		CommitRevision: lookout.CommitRevision{
+			Base: lookout.ReferencePointer{
+				InternalRepositoryURL: "https://github.com/src-d/lookout-test-fixtures",
+				ReferenceName:         "refs/heads/master",
+				Hash:                  "6a92946068897d0a6f6ffa6457f889163dcc51b5",
+			},
+			Head: lookout.ReferencePointer{
+				InternalRepositoryURL: "https://github.com/src-d/lookout-test-fixtures",
+				ReferenceName:         "refs/heads/config_empty",
+				Hash:                  "8a3e52d451483fe50fefe801f5b7715fce82d4f1",
+			},
+		},
+		PR: PullRequest{
+			URL: "https://github.com/src-d/lookout-test-fixtures/pull/10",
+		},
+	},
+	{
+		Name: "config-unknown-analyzer",
+		CommitRevision: lookout.CommitRevision{
+			Base: lookout.ReferencePointer{
+				InternalRepositoryURL: "https://github.com/src-d/lookout-test-fixtures",
+				ReferenceName:         "refs/heads/master",
+				Hash:                  "6a92946068897d0a6f6ffa6457f889163dcc51b5",
+			},
+			Head: lookout.ReferencePointer{
+				InternalRepositoryURL: "https://github.com/src-d/lookout-test-fixtures",
+				ReferenceName:         "refs/heads/config_unknown_analyzer",
+				Hash:                  "f125c7577f200c4498df840f518c96dc68396266",
+			},
+		},
+		PR: PullRequest{
+			URL: "https://github.com/src-d/lookout-test-fixtures/pull/11",
+		},
+	},
+	{
+		Name: "submodule-add",
+		CommitRevision: lookout.CommitRevision{
+			Base: lookout.ReferencePointer{
+				InternalRepositoryURL: "https://github.com/src-d/lookout-test-fixtures",
+				ReferenceName:         "refs/heads/master",
+				Hash:                  "6a92946068897d0a6f6ffa6457f889163dcc51b5",
+			},
+			Head: lookout.ReferencePointer{
+				InternalRepositoryURL: "https://github.com/src-d/lookout-test-fixtures",
+				ReferenceName:         "refs/heads/submodule_add",
+				Hash:                  "689355891e2ce74e37439574bf1b0af46c9428ed",
+			},
+		},
+		PR: PullRequest{
+			URL: "https://github.com/src-d/lookout-test-fixtures/pull/12",
+		},
+	},
+	{
+		Name: "submodule-update",
+		CommitRevision: lookout.CommitRevision{
+			Base: lookout.ReferencePointer{
+				InternalRepositoryURL: "https://github.com/src-d/lookout-test-fixtures",
+				ReferenceName:         "refs/heads/master",
+				Hash:                  "6a92946068897d0a6f6ffa6457f889163dcc51b5",
+			},
+			Head: lookout.ReferencePointer{
+				InternalRepositoryURL: "https://github.com/src-d/lookout-test-fixtures",
+				ReferenceName:         "refs/heads/submodule_update",
+				Hash:                  "88560a7f9a4e54f7a8d83313dad6be31cb986d2f",
+			},
+		},
+		PR: PullRequest{
+			URL: "https://github.com/src-d/lookout-test-fixtures/pull/13",
 		},
 	},
 }
