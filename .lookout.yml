@@ -1,0 +1,7 @@
+analyzers:
+  - name: Unknown
+  - name: UnknownDisabled
+    disabled: true
+  - name: UnknownWithOptions
+    options:
+      some: value
