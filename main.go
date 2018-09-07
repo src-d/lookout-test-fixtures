@@ -1,7 +1,7 @@
 package fixtures
 
 import (
-	"github.com/src-d/lookout-sdk/pb"
+	"gopkg.in/src-d/lookout-sdk.v0/pb"
 )
 
 var fixtures = Fixtures{
