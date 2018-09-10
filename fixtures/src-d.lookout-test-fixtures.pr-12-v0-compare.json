@@ -1,0 +1,262 @@
+{
+  "base_commit": {
+    "sha": "6a92946068897d0a6f6ffa6457f889163dcc51b5",
+    "commit": {
+      "author": {
+        "date": "2018-09-05T17:00:50Z",
+        "name": "Maxim Sukharev",
+        "email": "maxim@sourced.tech"
+      },
+      "committer": {
+        "date": "2018-09-05T17:00:50Z",
+        "name": "Maxim Sukharev",
+        "email": "maxim@sourced.tech"
+      },
+      "message": "add dummy.go file to build other fixtures on top of it\n\nSigned-off-by: Maxim Sukharev \u003cmaxim@sourced.tech\u003e",
+      "tree": {
+        "sha": "62c324955aa1c8bcaca6eb732ea7e037d8822b69"
+      },
+      "url": "https://api.github.com/repos/src-d/lookout-test-fixtures/git/commits/6a92946068897d0a6f6ffa6457f889163dcc51b5",
+      "verification": {
+        "verified": false,
+        "reason": "unsigned"
+      },
+      "comment_count": 0
+    },
+    "author": {
+      "login": "smacker",
+      "id": 406916,
+      "node_id": "MDQ6VXNlcjQwNjkxNg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/406916?v=4",
+      "html_url": "https://github.com/smacker",
+      "gravatar_id": "",
+      "type": "User",
+      "site_admin": false,
+      "url": "https://api.github.com/users/smacker",
+      "events_url": "https://api.github.com/users/smacker/events{/privacy}",
+      "following_url": "https://api.github.com/users/smacker/following{/other_user}",
+      "followers_url": "https://api.github.com/users/smacker/followers",
+      "gists_url": "https://api.github.com/users/smacker/gists{/gist_id}",
+      "organizations_url": "https://api.github.com/users/smacker/orgs",
+      "received_events_url": "https://api.github.com/users/smacker/received_events",
+      "repos_url": "https://api.github.com/users/smacker/repos",
+      "starred_url": "https://api.github.com/users/smacker/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/smacker/subscriptions"
+    },
+    "committer": {
+      "login": "smacker",
+      "id": 406916,
+      "node_id": "MDQ6VXNlcjQwNjkxNg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/406916?v=4",
+      "html_url": "https://github.com/smacker",
+      "gravatar_id": "",
+      "type": "User",
+      "site_admin": false,
+      "url": "https://api.github.com/users/smacker",
+      "events_url": "https://api.github.com/users/smacker/events{/privacy}",
+      "following_url": "https://api.github.com/users/smacker/following{/other_user}",
+      "followers_url": "https://api.github.com/users/smacker/followers",
+      "gists_url": "https://api.github.com/users/smacker/gists{/gist_id}",
+      "organizations_url": "https://api.github.com/users/smacker/orgs",
+      "received_events_url": "https://api.github.com/users/smacker/received_events",
+      "repos_url": "https://api.github.com/users/smacker/repos",
+      "starred_url": "https://api.github.com/users/smacker/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/smacker/subscriptions"
+    },
+    "parents": [
+      {
+        "sha": "c6e7417ff3b84560f44fe940876494f58e6d68f1",
+        "html_url": "https://github.com/src-d/lookout-test-fixtures/commit/c6e7417ff3b84560f44fe940876494f58e6d68f1",
+        "url": "https://api.github.com/repos/src-d/lookout-test-fixtures/commits/c6e7417ff3b84560f44fe940876494f58e6d68f1"
+      }
+    ],
+    "html_url": "https://github.com/src-d/lookout-test-fixtures/commit/6a92946068897d0a6f6ffa6457f889163dcc51b5",
+    "url": "https://api.github.com/repos/src-d/lookout-test-fixtures/commits/6a92946068897d0a6f6ffa6457f889163dcc51b5",
+    "comments_url": "https://api.github.com/repos/src-d/lookout-test-fixtures/commits/6a92946068897d0a6f6ffa6457f889163dcc51b5/comments"
+  },
+  "merge_base_commit": {
+    "sha": "6a92946068897d0a6f6ffa6457f889163dcc51b5",
+    "commit": {
+      "author": {
+        "date": "2018-09-05T17:00:50Z",
+        "name": "Maxim Sukharev",
+        "email": "maxim@sourced.tech"
+      },
+      "committer": {
+        "date": "2018-09-05T17:00:50Z",
+        "name": "Maxim Sukharev",
+        "email": "maxim@sourced.tech"
+      },
+      "message": "add dummy.go file to build other fixtures on top of it\n\nSigned-off-by: Maxim Sukharev \u003cmaxim@sourced.tech\u003e",
+      "tree": {
+        "sha": "62c324955aa1c8bcaca6eb732ea7e037d8822b69"
+      },
+      "url": "https://api.github.com/repos/src-d/lookout-test-fixtures/git/commits/6a92946068897d0a6f6ffa6457f889163dcc51b5",
+      "verification": {
+        "verified": false,
+        "reason": "unsigned"
+      },
+      "comment_count": 0
+    },
+    "author": {
+      "login": "smacker",
+      "id": 406916,
+      "node_id": "MDQ6VXNlcjQwNjkxNg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/406916?v=4",
+      "html_url": "https://github.com/smacker",
+      "gravatar_id": "",
+      "type": "User",
+      "site_admin": false,
+      "url": "https://api.github.com/users/smacker",
+      "events_url": "https://api.github.com/users/smacker/events{/privacy}",
+      "following_url": "https://api.github.com/users/smacker/following{/other_user}",
+      "followers_url": "https://api.github.com/users/smacker/followers",
+      "gists_url": "https://api.github.com/users/smacker/gists{/gist_id}",
+      "organizations_url": "https://api.github.com/users/smacker/orgs",
+      "received_events_url": "https://api.github.com/users/smacker/received_events",
+      "repos_url": "https://api.github.com/users/smacker/repos",
+      "starred_url": "https://api.github.com/users/smacker/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/smacker/subscriptions"
+    },
+    "committer": {
+      "login": "smacker",
+      "id": 406916,
+      "node_id": "MDQ6VXNlcjQwNjkxNg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/406916?v=4",
+      "html_url": "https://github.com/smacker",
+      "gravatar_id": "",
+      "type": "User",
+      "site_admin": false,
+      "url": "https://api.github.com/users/smacker",
+      "events_url": "https://api.github.com/users/smacker/events{/privacy}",
+      "following_url": "https://api.github.com/users/smacker/following{/other_user}",
+      "followers_url": "https://api.github.com/users/smacker/followers",
+      "gists_url": "https://api.github.com/users/smacker/gists{/gist_id}",
+      "organizations_url": "https://api.github.com/users/smacker/orgs",
+      "received_events_url": "https://api.github.com/users/smacker/received_events",
+      "repos_url": "https://api.github.com/users/smacker/repos",
+      "starred_url": "https://api.github.com/users/smacker/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/smacker/subscriptions"
+    },
+    "parents": [
+      {
+        "sha": "c6e7417ff3b84560f44fe940876494f58e6d68f1",
+        "html_url": "https://github.com/src-d/lookout-test-fixtures/commit/c6e7417ff3b84560f44fe940876494f58e6d68f1",
+        "url": "https://api.github.com/repos/src-d/lookout-test-fixtures/commits/c6e7417ff3b84560f44fe940876494f58e6d68f1"
+      }
+    ],
+    "html_url": "https://github.com/src-d/lookout-test-fixtures/commit/6a92946068897d0a6f6ffa6457f889163dcc51b5",
+    "url": "https://api.github.com/repos/src-d/lookout-test-fixtures/commits/6a92946068897d0a6f6ffa6457f889163dcc51b5",
+    "comments_url": "https://api.github.com/repos/src-d/lookout-test-fixtures/commits/6a92946068897d0a6f6ffa6457f889163dcc51b5/comments"
+  },
+  "status": "ahead",
+  "ahead_by": 1,
+  "behind_by": 0,
+  "total_commits": 1,
+  "commits": [
+    {
+      "sha": "689355891e2ce74e37439574bf1b0af46c9428ed",
+      "commit": {
+        "author": {
+          "date": "2018-09-06T10:17:45Z",
+          "name": "Maxim Sukharev",
+          "email": "maxim@sourced.tech"
+        },
+        "committer": {
+          "date": "2018-09-06T10:17:45Z",
+          "name": "Maxim Sukharev",
+          "email": "maxim@sourced.tech"
+        },
+        "message": "add git submodule\n\nSigned-off-by: Maxim Sukharev \u003cmaxim@sourced.tech\u003e",
+        "tree": {
+          "sha": "a867e29eba01947fdba8635fca4dc18257c7e9d7"
+        },
+        "url": "https://api.github.com/repos/src-d/lookout-test-fixtures/git/commits/689355891e2ce74e37439574bf1b0af46c9428ed",
+        "verification": {
+          "verified": false,
+          "reason": "unsigned"
+        },
+        "comment_count": 0
+      },
+      "author": {
+        "login": "smacker",
+        "id": 406916,
+        "node_id": "MDQ6VXNlcjQwNjkxNg==",
+        "avatar_url": "https://avatars0.githubusercontent.com/u/406916?v=4",
+        "html_url": "https://github.com/smacker",
+        "gravatar_id": "",
+        "type": "User",
+        "site_admin": false,
+        "url": "https://api.github.com/users/smacker",
+        "events_url": "https://api.github.com/users/smacker/events{/privacy}",
+        "following_url": "https://api.github.com/users/smacker/following{/other_user}",
+        "followers_url": "https://api.github.com/users/smacker/followers",
+        "gists_url": "https://api.github.com/users/smacker/gists{/gist_id}",
+        "organizations_url": "https://api.github.com/users/smacker/orgs",
+        "received_events_url": "https://api.github.com/users/smacker/received_events",
+        "repos_url": "https://api.github.com/users/smacker/repos",
+        "starred_url": "https://api.github.com/users/smacker/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/smacker/subscriptions"
+      },
+      "committer": {
+        "login": "smacker",
+        "id": 406916,
+        "node_id": "MDQ6VXNlcjQwNjkxNg==",
+        "avatar_url": "https://avatars0.githubusercontent.com/u/406916?v=4",
+        "html_url": "https://github.com/smacker",
+        "gravatar_id": "",
+        "type": "User",
+        "site_admin": false,
+        "url": "https://api.github.com/users/smacker",
+        "events_url": "https://api.github.com/users/smacker/events{/privacy}",
+        "following_url": "https://api.github.com/users/smacker/following{/other_user}",
+        "followers_url": "https://api.github.com/users/smacker/followers",
+        "gists_url": "https://api.github.com/users/smacker/gists{/gist_id}",
+        "organizations_url": "https://api.github.com/users/smacker/orgs",
+        "received_events_url": "https://api.github.com/users/smacker/received_events",
+        "repos_url": "https://api.github.com/users/smacker/repos",
+        "starred_url": "https://api.github.com/users/smacker/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/smacker/subscriptions"
+      },
+      "parents": [
+        {
+          "sha": "6a92946068897d0a6f6ffa6457f889163dcc51b5",
+          "html_url": "https://github.com/src-d/lookout-test-fixtures/commit/6a92946068897d0a6f6ffa6457f889163dcc51b5",
+          "url": "https://api.github.com/repos/src-d/lookout-test-fixtures/commits/6a92946068897d0a6f6ffa6457f889163dcc51b5"
+        }
+      ],
+      "html_url": "https://github.com/src-d/lookout-test-fixtures/commit/689355891e2ce74e37439574bf1b0af46c9428ed",
+      "url": "https://api.github.com/repos/src-d/lookout-test-fixtures/commits/689355891e2ce74e37439574bf1b0af46c9428ed",
+      "comments_url": "https://api.github.com/repos/src-d/lookout-test-fixtures/commits/689355891e2ce74e37439574bf1b0af46c9428ed/comments"
+    }
+  ],
+  "files": [
+    {
+      "sha": "4817902624611fdb418dc3568ee9d274ab32b4e5",
+      "filename": ".gitmodules",
+      "additions": 3,
+      "deletions": 0,
+      "changes": 3,
+      "status": "added",
+      "patch": "@@ -0,0 +1,3 @@\n+[submodule \"basic_submodule\"]\n+\tpath = basic_submodule\n+\turl = https://github.com/git-fixtures/basic.git",
+      "blob_url": "https://github.com/src-d/lookout-test-fixtures/blob/689355891e2ce74e37439574bf1b0af46c9428ed/.gitmodules",
+      "raw_url": "https://github.com/src-d/lookout-test-fixtures/raw/689355891e2ce74e37439574bf1b0af46c9428ed/.gitmodules",
+      "contents_url": "https://api.github.com/repos/src-d/lookout-test-fixtures/contents/.gitmodules?ref=689355891e2ce74e37439574bf1b0af46c9428ed"
+    },
+    {
+      "sha": "b029517f6300c2da0f4b651b8642506cd6aaf45d",
+      "filename": "basic_submodule",
+      "additions": 1,
+      "deletions": 0,
+      "changes": 1,
+      "status": "added",
+      "patch": "@@ -0,0 +1 @@\n+Subproject commit b029517f6300c2da0f4b651b8642506cd6aaf45d",
+      "contents_url": "https://api.github.com/repos/src-d/lookout-test-fixtures/contents/basic_submodule?ref=689355891e2ce74e37439574bf1b0af46c9428ed"
+    }
+  ],
+  "html_url": "https://github.com/src-d/lookout-test-fixtures/compare/6a92946068897d0a6f6ffa6457f889163dcc51b5...689355891e2ce74e37439574bf1b0af46c9428ed",
+  "permalink_url": "https://github.com/src-d/lookout-test-fixtures/compare/src-d:6a92946...src-d:6893558",
+  "diff_url": "https://github.com/src-d/lookout-test-fixtures/compare/6a92946068897d0a6f6ffa6457f889163dcc51b5...689355891e2ce74e37439574bf1b0af46c9428ed.diff",
+  "patch_url": "https://github.com/src-d/lookout-test-fixtures/compare/6a92946068897d0a6f6ffa6457f889163dcc51b5...689355891e2ce74e37439574bf1b0af46c9428ed.patch",
+  "url": "https://api.github.com/repos/src-d/lookout-test-fixtures/compare/6a92946068897d0a6f6ffa6457f889163dcc51b5...689355891e2ce74e37439574bf1b0af46c9428ed"
+}

@@ -1,0 +1,252 @@
+{
+  "base_commit": {
+    "sha": "fa8a63d8ed4ceee82f40273090c28e31576dafda",
+    "commit": {
+      "author": {
+        "date": "2018-09-05T15:59:56Z",
+        "name": "Carlos Martín",
+        "email": "carlos.martin.sanchez@gmail.com"
+      },
+      "committer": {
+        "date": "2018-09-05T15:59:56Z",
+        "name": "Carlos Martín",
+        "email": "carlos.martin.sanchez@gmail.com"
+      },
+      "message": "Add comment to hola-mundo.go\n\nSigned-off-by: Carlos Martín \u003ccarlos.martin.sanchez@gmail.com\u003e",
+      "tree": {
+        "sha": "1461479b5bddd0f00d5d59da280b0ef9ac897fd1"
+      },
+      "url": "https://api.github.com/repos/src-d/lookout-test-fixtures/git/commits/fa8a63d8ed4ceee82f40273090c28e31576dafda",
+      "verification": {
+        "verified": false,
+        "reason": "unsigned"
+      },
+      "comment_count": 0
+    },
+    "author": {
+      "login": "carlosms",
+      "id": 1469173,
+      "node_id": "MDQ6VXNlcjE0NjkxNzM=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1469173?v=4",
+      "html_url": "https://github.com/carlosms",
+      "gravatar_id": "",
+      "type": "User",
+      "site_admin": false,
+      "url": "https://api.github.com/users/carlosms",
+      "events_url": "https://api.github.com/users/carlosms/events{/privacy}",
+      "following_url": "https://api.github.com/users/carlosms/following{/other_user}",
+      "followers_url": "https://api.github.com/users/carlosms/followers",
+      "gists_url": "https://api.github.com/users/carlosms/gists{/gist_id}",
+      "organizations_url": "https://api.github.com/users/carlosms/orgs",
+      "received_events_url": "https://api.github.com/users/carlosms/received_events",
+      "repos_url": "https://api.github.com/users/carlosms/repos",
+      "starred_url": "https://api.github.com/users/carlosms/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/carlosms/subscriptions"
+    },
+    "committer": {
+      "login": "carlosms",
+      "id": 1469173,
+      "node_id": "MDQ6VXNlcjE0NjkxNzM=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1469173?v=4",
+      "html_url": "https://github.com/carlosms",
+      "gravatar_id": "",
+      "type": "User",
+      "site_admin": false,
+      "url": "https://api.github.com/users/carlosms",
+      "events_url": "https://api.github.com/users/carlosms/events{/privacy}",
+      "following_url": "https://api.github.com/users/carlosms/following{/other_user}",
+      "followers_url": "https://api.github.com/users/carlosms/followers",
+      "gists_url": "https://api.github.com/users/carlosms/gists{/gist_id}",
+      "organizations_url": "https://api.github.com/users/carlosms/orgs",
+      "received_events_url": "https://api.github.com/users/carlosms/received_events",
+      "repos_url": "https://api.github.com/users/carlosms/repos",
+      "starred_url": "https://api.github.com/users/carlosms/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/carlosms/subscriptions"
+    },
+    "parents": [
+      {
+        "sha": "a80ab37e954ffded02ca70219540edf78ae37d92",
+        "html_url": "https://github.com/src-d/lookout-test-fixtures/commit/a80ab37e954ffded02ca70219540edf78ae37d92",
+        "url": "https://api.github.com/repos/src-d/lookout-test-fixtures/commits/a80ab37e954ffded02ca70219540edf78ae37d92"
+      }
+    ],
+    "html_url": "https://github.com/src-d/lookout-test-fixtures/commit/fa8a63d8ed4ceee82f40273090c28e31576dafda",
+    "url": "https://api.github.com/repos/src-d/lookout-test-fixtures/commits/fa8a63d8ed4ceee82f40273090c28e31576dafda",
+    "comments_url": "https://api.github.com/repos/src-d/lookout-test-fixtures/commits/fa8a63d8ed4ceee82f40273090c28e31576dafda/comments"
+  },
+  "merge_base_commit": {
+    "sha": "fa8a63d8ed4ceee82f40273090c28e31576dafda",
+    "commit": {
+      "author": {
+        "date": "2018-09-05T15:59:56Z",
+        "name": "Carlos Martín",
+        "email": "carlos.martin.sanchez@gmail.com"
+      },
+      "committer": {
+        "date": "2018-09-05T15:59:56Z",
+        "name": "Carlos Martín",
+        "email": "carlos.martin.sanchez@gmail.com"
+      },
+      "message": "Add comment to hola-mundo.go\n\nSigned-off-by: Carlos Martín \u003ccarlos.martin.sanchez@gmail.com\u003e",
+      "tree": {
+        "sha": "1461479b5bddd0f00d5d59da280b0ef9ac897fd1"
+      },
+      "url": "https://api.github.com/repos/src-d/lookout-test-fixtures/git/commits/fa8a63d8ed4ceee82f40273090c28e31576dafda",
+      "verification": {
+        "verified": false,
+        "reason": "unsigned"
+      },
+      "comment_count": 0
+    },
+    "author": {
+      "login": "carlosms",
+      "id": 1469173,
+      "node_id": "MDQ6VXNlcjE0NjkxNzM=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1469173?v=4",
+      "html_url": "https://github.com/carlosms",
+      "gravatar_id": "",
+      "type": "User",
+      "site_admin": false,
+      "url": "https://api.github.com/users/carlosms",
+      "events_url": "https://api.github.com/users/carlosms/events{/privacy}",
+      "following_url": "https://api.github.com/users/carlosms/following{/other_user}",
+      "followers_url": "https://api.github.com/users/carlosms/followers",
+      "gists_url": "https://api.github.com/users/carlosms/gists{/gist_id}",
+      "organizations_url": "https://api.github.com/users/carlosms/orgs",
+      "received_events_url": "https://api.github.com/users/carlosms/received_events",
+      "repos_url": "https://api.github.com/users/carlosms/repos",
+      "starred_url": "https://api.github.com/users/carlosms/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/carlosms/subscriptions"
+    },
+    "committer": {
+      "login": "carlosms",
+      "id": 1469173,
+      "node_id": "MDQ6VXNlcjE0NjkxNzM=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1469173?v=4",
+      "html_url": "https://github.com/carlosms",
+      "gravatar_id": "",
+      "type": "User",
+      "site_admin": false,
+      "url": "https://api.github.com/users/carlosms",
+      "events_url": "https://api.github.com/users/carlosms/events{/privacy}",
+      "following_url": "https://api.github.com/users/carlosms/following{/other_user}",
+      "followers_url": "https://api.github.com/users/carlosms/followers",
+      "gists_url": "https://api.github.com/users/carlosms/gists{/gist_id}",
+      "organizations_url": "https://api.github.com/users/carlosms/orgs",
+      "received_events_url": "https://api.github.com/users/carlosms/received_events",
+      "repos_url": "https://api.github.com/users/carlosms/repos",
+      "starred_url": "https://api.github.com/users/carlosms/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/carlosms/subscriptions"
+    },
+    "parents": [
+      {
+        "sha": "a80ab37e954ffded02ca70219540edf78ae37d92",
+        "html_url": "https://github.com/src-d/lookout-test-fixtures/commit/a80ab37e954ffded02ca70219540edf78ae37d92",
+        "url": "https://api.github.com/repos/src-d/lookout-test-fixtures/commits/a80ab37e954ffded02ca70219540edf78ae37d92"
+      }
+    ],
+    "html_url": "https://github.com/src-d/lookout-test-fixtures/commit/fa8a63d8ed4ceee82f40273090c28e31576dafda",
+    "url": "https://api.github.com/repos/src-d/lookout-test-fixtures/commits/fa8a63d8ed4ceee82f40273090c28e31576dafda",
+    "comments_url": "https://api.github.com/repos/src-d/lookout-test-fixtures/commits/fa8a63d8ed4ceee82f40273090c28e31576dafda/comments"
+  },
+  "status": "ahead",
+  "ahead_by": 1,
+  "behind_by": 0,
+  "total_commits": 1,
+  "commits": [
+    {
+      "sha": "5fe468b62112e69bae390051e990271f7b1cc294",
+      "commit": {
+        "author": {
+          "date": "2018-09-05T15:37:03Z",
+          "name": "Carlos Martín",
+          "email": "carlos.martin.sanchez@gmail.com"
+        },
+        "committer": {
+          "date": "2018-09-05T16:03:48Z",
+          "name": "Carlos Martín",
+          "email": "carlos.martin.sanchez@gmail.com"
+        },
+        "message": "Add comment to hello-world.go\n\nSigned-off-by: Carlos Martín \u003ccarlos.martin.sanchez@gmail.com\u003e",
+        "tree": {
+          "sha": "90bac7a476b5eb1e497c0309d347a7dd0173efb2"
+        },
+        "url": "https://api.github.com/repos/src-d/lookout-test-fixtures/git/commits/5fe468b62112e69bae390051e990271f7b1cc294",
+        "verification": {
+          "verified": false,
+          "reason": "unsigned"
+        },
+        "comment_count": 0
+      },
+      "author": {
+        "login": "carlosms",
+        "id": 1469173,
+        "node_id": "MDQ6VXNlcjE0NjkxNzM=",
+        "avatar_url": "https://avatars0.githubusercontent.com/u/1469173?v=4",
+        "html_url": "https://github.com/carlosms",
+        "gravatar_id": "",
+        "type": "User",
+        "site_admin": false,
+        "url": "https://api.github.com/users/carlosms",
+        "events_url": "https://api.github.com/users/carlosms/events{/privacy}",
+        "following_url": "https://api.github.com/users/carlosms/following{/other_user}",
+        "followers_url": "https://api.github.com/users/carlosms/followers",
+        "gists_url": "https://api.github.com/users/carlosms/gists{/gist_id}",
+        "organizations_url": "https://api.github.com/users/carlosms/orgs",
+        "received_events_url": "https://api.github.com/users/carlosms/received_events",
+        "repos_url": "https://api.github.com/users/carlosms/repos",
+        "starred_url": "https://api.github.com/users/carlosms/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/carlosms/subscriptions"
+      },
+      "committer": {
+        "login": "carlosms",
+        "id": 1469173,
+        "node_id": "MDQ6VXNlcjE0NjkxNzM=",
+        "avatar_url": "https://avatars0.githubusercontent.com/u/1469173?v=4",
+        "html_url": "https://github.com/carlosms",
+        "gravatar_id": "",
+        "type": "User",
+        "site_admin": false,
+        "url": "https://api.github.com/users/carlosms",
+        "events_url": "https://api.github.com/users/carlosms/events{/privacy}",
+        "following_url": "https://api.github.com/users/carlosms/following{/other_user}",
+        "followers_url": "https://api.github.com/users/carlosms/followers",
+        "gists_url": "https://api.github.com/users/carlosms/gists{/gist_id}",
+        "organizations_url": "https://api.github.com/users/carlosms/orgs",
+        "received_events_url": "https://api.github.com/users/carlosms/received_events",
+        "repos_url": "https://api.github.com/users/carlosms/repos",
+        "starred_url": "https://api.github.com/users/carlosms/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/carlosms/subscriptions"
+      },
+      "parents": [
+        {
+          "sha": "fa8a63d8ed4ceee82f40273090c28e31576dafda",
+          "html_url": "https://github.com/src-d/lookout-test-fixtures/commit/fa8a63d8ed4ceee82f40273090c28e31576dafda",
+          "url": "https://api.github.com/repos/src-d/lookout-test-fixtures/commits/fa8a63d8ed4ceee82f40273090c28e31576dafda"
+        }
+      ],
+      "html_url": "https://github.com/src-d/lookout-test-fixtures/commit/5fe468b62112e69bae390051e990271f7b1cc294",
+      "url": "https://api.github.com/repos/src-d/lookout-test-fixtures/commits/5fe468b62112e69bae390051e990271f7b1cc294",
+      "comments_url": "https://api.github.com/repos/src-d/lookout-test-fixtures/commits/5fe468b62112e69bae390051e990271f7b1cc294/comments"
+    }
+  ],
+  "files": [
+    {
+      "sha": "ca8ca632d0ff2e31727743a1276029e8aecf75c8",
+      "filename": "go/hello-world.go",
+      "additions": 1,
+      "deletions": 0,
+      "changes": 1,
+      "status": "modified",
+      "patch": "@@ -3,5 +3,6 @@ package main\n import \"fmt\"\n \n func main() {\n+\t// An important (long) comment. An important (long) comment. An important (long) comment. An important (long) comment.\n \tfmt.Println(\"hello world\")\n }",
+      "blob_url": "https://github.com/src-d/lookout-test-fixtures/blob/5fe468b62112e69bae390051e990271f7b1cc294/go/hello-world.go",
+      "raw_url": "https://github.com/src-d/lookout-test-fixtures/raw/5fe468b62112e69bae390051e990271f7b1cc294/go/hello-world.go",
+      "contents_url": "https://api.github.com/repos/src-d/lookout-test-fixtures/contents/go/hello-world.go?ref=5fe468b62112e69bae390051e990271f7b1cc294"
+    }
+  ],
+  "html_url": "https://github.com/src-d/lookout-test-fixtures/compare/fa8a63d8ed4ceee82f40273090c28e31576dafda...5fe468b62112e69bae390051e990271f7b1cc294",
+  "permalink_url": "https://github.com/src-d/lookout-test-fixtures/compare/src-d:fa8a63d...src-d:5fe468b",
+  "diff_url": "https://github.com/src-d/lookout-test-fixtures/compare/fa8a63d8ed4ceee82f40273090c28e31576dafda...5fe468b62112e69bae390051e990271f7b1cc294.diff",
+  "patch_url": "https://github.com/src-d/lookout-test-fixtures/compare/fa8a63d8ed4ceee82f40273090c28e31576dafda...5fe468b62112e69bae390051e990271f7b1cc294.patch",
+  "url": "https://api.github.com/repos/src-d/lookout-test-fixtures/compare/fa8a63d8ed4ceee82f40273090c28e31576dafda...5fe468b62112e69bae390051e990271f7b1cc294"
+}
