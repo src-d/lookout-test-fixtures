@@ -1,0 +1,341 @@
+{
+  "base_commit": {
+    "sha": "07bb25745b17f456e2cf398735cc69675f5a19b9",
+    "commit": {
+      "author": {
+        "date": "2018-09-10T13:58:11Z",
+        "name": "Carlos Martín",
+        "email": "carlosms@users.noreply.github.com"
+      },
+      "committer": {
+        "date": "2018-09-10T13:58:11Z",
+        "name": "GitHub",
+        "email": "noreply@github.com"
+      },
+      "message": "Merge pull request #15 from carlosms/scrape-prs\n\nScrape PRs as json fixtures",
+      "tree": {
+        "sha": "88643132d42600eec6505adc34e2a7b3b45a815f"
+      },
+      "url": "https://api.github.com/repos/src-d/lookout-test-fixtures/git/commits/07bb25745b17f456e2cf398735cc69675f5a19b9",
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJblnhzCRBK7hj4Ov3rIwAAdHIIAKaI2q8yCzQ4jP7s8rUlrXu2\nF3KsP/UcDgOiGjezLkUGDuPVboHgB8DjHNkEzK3zl6WxVp8xSMRokeKLNG4vpAEp\nEGNQ/TQBpxK+WAlvBK/40+gWvFWrLm+6wl9hXhjxU3tKNLBkXu/ZBjRIJYROnlcJ\nzjVQ7PBN6jwAPQ50cKY/c2YZ1qlBwq1/Z6juRrLd1m8xJQPubGiGpN9R4qVLhT4E\nFTjJT3ln91fvOkW/ZgckqBy4JeesycLwnekpGQb3K28tw4O1EnPQKeFO+V5e+/zm\nEuEPC85UUWg0sfRn/hc1yy9JGZ8kRX1BV2JqWjqtPRrt5IuorZzGmn+8El5pwJg=\n=uspe\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 88643132d42600eec6505adc34e2a7b3b45a815f\nparent 6e469b77f8d383171a0664fc5cc76b2761a93230\nparent 4e0c2d43e919867370e303875498f8e9791efd05\nauthor Carlos Martín \u003ccarlosms@users.noreply.github.com\u003e 1536587891 +0100\ncommitter GitHub \u003cnoreply@github.com\u003e 1536587891 +0100\n\nMerge pull request #15 from carlosms/scrape-prs\n\nScrape PRs as json fixtures"
+      },
+      "comment_count": 0
+    },
+    "author": {
+      "login": "carlosms",
+      "id": 1469173,
+      "node_id": "MDQ6VXNlcjE0NjkxNzM=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1469173?v=4",
+      "html_url": "https://github.com/carlosms",
+      "gravatar_id": "",
+      "type": "User",
+      "site_admin": false,
+      "url": "https://api.github.com/users/carlosms",
+      "events_url": "https://api.github.com/users/carlosms/events{/privacy}",
+      "following_url": "https://api.github.com/users/carlosms/following{/other_user}",
+      "followers_url": "https://api.github.com/users/carlosms/followers",
+      "gists_url": "https://api.github.com/users/carlosms/gists{/gist_id}",
+      "organizations_url": "https://api.github.com/users/carlosms/orgs",
+      "received_events_url": "https://api.github.com/users/carlosms/received_events",
+      "repos_url": "https://api.github.com/users/carlosms/repos",
+      "starred_url": "https://api.github.com/users/carlosms/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/carlosms/subscriptions"
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "html_url": "https://github.com/web-flow",
+      "gravatar_id": "",
+      "type": "User",
+      "site_admin": false,
+      "url": "https://api.github.com/users/web-flow",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions"
+    },
+    "parents": [
+      {
+        "sha": "6e469b77f8d383171a0664fc5cc76b2761a93230",
+        "html_url": "https://github.com/src-d/lookout-test-fixtures/commit/6e469b77f8d383171a0664fc5cc76b2761a93230",
+        "url": "https://api.github.com/repos/src-d/lookout-test-fixtures/commits/6e469b77f8d383171a0664fc5cc76b2761a93230"
+      },
+      {
+        "sha": "4e0c2d43e919867370e303875498f8e9791efd05",
+        "html_url": "https://github.com/src-d/lookout-test-fixtures/commit/4e0c2d43e919867370e303875498f8e9791efd05",
+        "url": "https://api.github.com/repos/src-d/lookout-test-fixtures/commits/4e0c2d43e919867370e303875498f8e9791efd05"
+      }
+    ],
+    "html_url": "https://github.com/src-d/lookout-test-fixtures/commit/07bb25745b17f456e2cf398735cc69675f5a19b9",
+    "url": "https://api.github.com/repos/src-d/lookout-test-fixtures/commits/07bb25745b17f456e2cf398735cc69675f5a19b9",
+    "comments_url": "https://api.github.com/repos/src-d/lookout-test-fixtures/commits/07bb25745b17f456e2cf398735cc69675f5a19b9/comments"
+  },
+  "merge_base_commit": {
+    "sha": "07bb25745b17f456e2cf398735cc69675f5a19b9",
+    "commit": {
+      "author": {
+        "date": "2018-09-10T13:58:11Z",
+        "name": "Carlos Martín",
+        "email": "carlosms@users.noreply.github.com"
+      },
+      "committer": {
+        "date": "2018-09-10T13:58:11Z",
+        "name": "GitHub",
+        "email": "noreply@github.com"
+      },
+      "message": "Merge pull request #15 from carlosms/scrape-prs\n\nScrape PRs as json fixtures",
+      "tree": {
+        "sha": "88643132d42600eec6505adc34e2a7b3b45a815f"
+      },
+      "url": "https://api.github.com/repos/src-d/lookout-test-fixtures/git/commits/07bb25745b17f456e2cf398735cc69675f5a19b9",
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJblnhzCRBK7hj4Ov3rIwAAdHIIAKaI2q8yCzQ4jP7s8rUlrXu2\nF3KsP/UcDgOiGjezLkUGDuPVboHgB8DjHNkEzK3zl6WxVp8xSMRokeKLNG4vpAEp\nEGNQ/TQBpxK+WAlvBK/40+gWvFWrLm+6wl9hXhjxU3tKNLBkXu/ZBjRIJYROnlcJ\nzjVQ7PBN6jwAPQ50cKY/c2YZ1qlBwq1/Z6juRrLd1m8xJQPubGiGpN9R4qVLhT4E\nFTjJT3ln91fvOkW/ZgckqBy4JeesycLwnekpGQb3K28tw4O1EnPQKeFO+V5e+/zm\nEuEPC85UUWg0sfRn/hc1yy9JGZ8kRX1BV2JqWjqtPRrt5IuorZzGmn+8El5pwJg=\n=uspe\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 88643132d42600eec6505adc34e2a7b3b45a815f\nparent 6e469b77f8d383171a0664fc5cc76b2761a93230\nparent 4e0c2d43e919867370e303875498f8e9791efd05\nauthor Carlos Martín \u003ccarlosms@users.noreply.github.com\u003e 1536587891 +0100\ncommitter GitHub \u003cnoreply@github.com\u003e 1536587891 +0100\n\nMerge pull request #15 from carlosms/scrape-prs\n\nScrape PRs as json fixtures"
+      },
+      "comment_count": 0
+    },
+    "author": {
+      "login": "carlosms",
+      "id": 1469173,
+      "node_id": "MDQ6VXNlcjE0NjkxNzM=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1469173?v=4",
+      "html_url": "https://github.com/carlosms",
+      "gravatar_id": "",
+      "type": "User",
+      "site_admin": false,
+      "url": "https://api.github.com/users/carlosms",
+      "events_url": "https://api.github.com/users/carlosms/events{/privacy}",
+      "following_url": "https://api.github.com/users/carlosms/following{/other_user}",
+      "followers_url": "https://api.github.com/users/carlosms/followers",
+      "gists_url": "https://api.github.com/users/carlosms/gists{/gist_id}",
+      "organizations_url": "https://api.github.com/users/carlosms/orgs",
+      "received_events_url": "https://api.github.com/users/carlosms/received_events",
+      "repos_url": "https://api.github.com/users/carlosms/repos",
+      "starred_url": "https://api.github.com/users/carlosms/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/carlosms/subscriptions"
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "html_url": "https://github.com/web-flow",
+      "gravatar_id": "",
+      "type": "User",
+      "site_admin": false,
+      "url": "https://api.github.com/users/web-flow",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions"
+    },
+    "parents": [
+      {
+        "sha": "6e469b77f8d383171a0664fc5cc76b2761a93230",
+        "html_url": "https://github.com/src-d/lookout-test-fixtures/commit/6e469b77f8d383171a0664fc5cc76b2761a93230",
+        "url": "https://api.github.com/repos/src-d/lookout-test-fixtures/commits/6e469b77f8d383171a0664fc5cc76b2761a93230"
+      },
+      {
+        "sha": "4e0c2d43e919867370e303875498f8e9791efd05",
+        "html_url": "https://github.com/src-d/lookout-test-fixtures/commit/4e0c2d43e919867370e303875498f8e9791efd05",
+        "url": "https://api.github.com/repos/src-d/lookout-test-fixtures/commits/4e0c2d43e919867370e303875498f8e9791efd05"
+      }
+    ],
+    "html_url": "https://github.com/src-d/lookout-test-fixtures/commit/07bb25745b17f456e2cf398735cc69675f5a19b9",
+    "url": "https://api.github.com/repos/src-d/lookout-test-fixtures/commits/07bb25745b17f456e2cf398735cc69675f5a19b9",
+    "comments_url": "https://api.github.com/repos/src-d/lookout-test-fixtures/commits/07bb25745b17f456e2cf398735cc69675f5a19b9/comments"
+  },
+  "status": "ahead",
+  "ahead_by": 2,
+  "behind_by": 0,
+  "total_commits": 2,
+  "commits": [
+    {
+      "sha": "d1889765a7856f764934f00b5b06b19f772c6096",
+      "commit": {
+        "author": {
+          "date": "2018-09-19T13:56:52Z",
+          "name": "Maxim Sukharev",
+          "email": "maxim@sourced.tech"
+        },
+        "committer": {
+          "date": "2018-09-19T13:56:52Z",
+          "name": "Maxim Sukharev",
+          "email": "maxim@sourced.tech"
+        },
+        "message": "first commit for incremental pr\n\nSigned-off-by: Maxim Sukharev \u003cmaxim@sourced.tech\u003e",
+        "tree": {
+          "sha": "def81d68a42ee0ff15ab1b70c6e6efeeef690ac8"
+        },
+        "url": "https://api.github.com/repos/src-d/lookout-test-fixtures/git/commits/d1889765a7856f764934f00b5b06b19f772c6096",
+        "verification": {
+          "verified": false,
+          "reason": "unsigned"
+        },
+        "comment_count": 0
+      },
+      "author": {
+        "login": "smacker",
+        "id": 406916,
+        "node_id": "MDQ6VXNlcjQwNjkxNg==",
+        "avatar_url": "https://avatars0.githubusercontent.com/u/406916?v=4",
+        "html_url": "https://github.com/smacker",
+        "gravatar_id": "",
+        "type": "User",
+        "site_admin": false,
+        "url": "https://api.github.com/users/smacker",
+        "events_url": "https://api.github.com/users/smacker/events{/privacy}",
+        "following_url": "https://api.github.com/users/smacker/following{/other_user}",
+        "followers_url": "https://api.github.com/users/smacker/followers",
+        "gists_url": "https://api.github.com/users/smacker/gists{/gist_id}",
+        "organizations_url": "https://api.github.com/users/smacker/orgs",
+        "received_events_url": "https://api.github.com/users/smacker/received_events",
+        "repos_url": "https://api.github.com/users/smacker/repos",
+        "starred_url": "https://api.github.com/users/smacker/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/smacker/subscriptions"
+      },
+      "committer": {
+        "login": "smacker",
+        "id": 406916,
+        "node_id": "MDQ6VXNlcjQwNjkxNg==",
+        "avatar_url": "https://avatars0.githubusercontent.com/u/406916?v=4",
+        "html_url": "https://github.com/smacker",
+        "gravatar_id": "",
+        "type": "User",
+        "site_admin": false,
+        "url": "https://api.github.com/users/smacker",
+        "events_url": "https://api.github.com/users/smacker/events{/privacy}",
+        "following_url": "https://api.github.com/users/smacker/following{/other_user}",
+        "followers_url": "https://api.github.com/users/smacker/followers",
+        "gists_url": "https://api.github.com/users/smacker/gists{/gist_id}",
+        "organizations_url": "https://api.github.com/users/smacker/orgs",
+        "received_events_url": "https://api.github.com/users/smacker/received_events",
+        "repos_url": "https://api.github.com/users/smacker/repos",
+        "starred_url": "https://api.github.com/users/smacker/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/smacker/subscriptions"
+      },
+      "parents": [
+        {
+          "sha": "07bb25745b17f456e2cf398735cc69675f5a19b9",
+          "html_url": "https://github.com/src-d/lookout-test-fixtures/commit/07bb25745b17f456e2cf398735cc69675f5a19b9",
+          "url": "https://api.github.com/repos/src-d/lookout-test-fixtures/commits/07bb25745b17f456e2cf398735cc69675f5a19b9"
+        }
+      ],
+      "html_url": "https://github.com/src-d/lookout-test-fixtures/commit/d1889765a7856f764934f00b5b06b19f772c6096",
+      "url": "https://api.github.com/repos/src-d/lookout-test-fixtures/commits/d1889765a7856f764934f00b5b06b19f772c6096",
+      "comments_url": "https://api.github.com/repos/src-d/lookout-test-fixtures/commits/d1889765a7856f764934f00b5b06b19f772c6096/comments"
+    },
+    {
+      "sha": "b3776109c761e82ea181b7df894d243f33ae7c99",
+      "commit": {
+        "author": {
+          "date": "2018-09-19T14:05:32Z",
+          "name": "Maxim Sukharev",
+          "email": "maxim@sourced.tech"
+        },
+        "committer": {
+          "date": "2018-09-19T14:05:32Z",
+          "name": "Maxim Sukharev",
+          "email": "maxim@sourced.tech"
+        },
+        "message": "second commit for incremental pr\n\nSigned-off-by: Maxim Sukharev \u003cmaxim@sourced.tech\u003e",
+        "tree": {
+          "sha": "0e8842b89fb40803258db7265b05aedcb4625d27"
+        },
+        "url": "https://api.github.com/repos/src-d/lookout-test-fixtures/git/commits/b3776109c761e82ea181b7df894d243f33ae7c99",
+        "verification": {
+          "verified": false,
+          "reason": "unsigned"
+        },
+        "comment_count": 0
+      },
+      "author": {
+        "login": "smacker",
+        "id": 406916,
+        "node_id": "MDQ6VXNlcjQwNjkxNg==",
+        "avatar_url": "https://avatars0.githubusercontent.com/u/406916?v=4",
+        "html_url": "https://github.com/smacker",
+        "gravatar_id": "",
+        "type": "User",
+        "site_admin": false,
+        "url": "https://api.github.com/users/smacker",
+        "events_url": "https://api.github.com/users/smacker/events{/privacy}",
+        "following_url": "https://api.github.com/users/smacker/following{/other_user}",
+        "followers_url": "https://api.github.com/users/smacker/followers",
+        "gists_url": "https://api.github.com/users/smacker/gists{/gist_id}",
+        "organizations_url": "https://api.github.com/users/smacker/orgs",
+        "received_events_url": "https://api.github.com/users/smacker/received_events",
+        "repos_url": "https://api.github.com/users/smacker/repos",
+        "starred_url": "https://api.github.com/users/smacker/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/smacker/subscriptions"
+      },
+      "committer": {
+        "login": "smacker",
+        "id": 406916,
+        "node_id": "MDQ6VXNlcjQwNjkxNg==",
+        "avatar_url": "https://avatars0.githubusercontent.com/u/406916?v=4",
+        "html_url": "https://github.com/smacker",
+        "gravatar_id": "",
+        "type": "User",
+        "site_admin": false,
+        "url": "https://api.github.com/users/smacker",
+        "events_url": "https://api.github.com/users/smacker/events{/privacy}",
+        "following_url": "https://api.github.com/users/smacker/following{/other_user}",
+        "followers_url": "https://api.github.com/users/smacker/followers",
+        "gists_url": "https://api.github.com/users/smacker/gists{/gist_id}",
+        "organizations_url": "https://api.github.com/users/smacker/orgs",
+        "received_events_url": "https://api.github.com/users/smacker/received_events",
+        "repos_url": "https://api.github.com/users/smacker/repos",
+        "starred_url": "https://api.github.com/users/smacker/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/smacker/subscriptions"
+      },
+      "parents": [
+        {
+          "sha": "d1889765a7856f764934f00b5b06b19f772c6096",
+          "html_url": "https://github.com/src-d/lookout-test-fixtures/commit/d1889765a7856f764934f00b5b06b19f772c6096",
+          "url": "https://api.github.com/repos/src-d/lookout-test-fixtures/commits/d1889765a7856f764934f00b5b06b19f772c6096"
+        }
+      ],
+      "html_url": "https://github.com/src-d/lookout-test-fixtures/commit/b3776109c761e82ea181b7df894d243f33ae7c99",
+      "url": "https://api.github.com/repos/src-d/lookout-test-fixtures/commits/b3776109c761e82ea181b7df894d243f33ae7c99",
+      "comments_url": "https://api.github.com/repos/src-d/lookout-test-fixtures/commits/b3776109c761e82ea181b7df894d243f33ae7c99/comments"
+    }
+  ],
+  "files": [
+    {
+      "sha": "275164bd6d2265efe827f868981a9cdc2cbc7620",
+      "filename": "dummy.go",
+      "additions": 2,
+      "deletions": 0,
+      "changes": 2,
+      "status": "modified",
+      "patch": "@@ -4,5 +4,7 @@ package fixtures\n \n // NoopYes is a function that does absolutely nothing but returns true. I need to make this comment long enough so it would be catched by any linter that doesn't like long lines.\n func NoopYes() bool {\n+\t// new very long comment to trigger analyzer moar moar moar text moar moar moar text\n \treturn true\n+\t// another new very long comment to trigger analyzer moar moar moar text moar moar moar text\n }",
+      "blob_url": "https://github.com/src-d/lookout-test-fixtures/blob/b3776109c761e82ea181b7df894d243f33ae7c99/dummy.go",
+      "raw_url": "https://github.com/src-d/lookout-test-fixtures/raw/b3776109c761e82ea181b7df894d243f33ae7c99/dummy.go",
+      "contents_url": "https://api.github.com/repos/src-d/lookout-test-fixtures/contents/dummy.go?ref=b3776109c761e82ea181b7df894d243f33ae7c99"
+    }
+  ],
+  "html_url": "https://github.com/src-d/lookout-test-fixtures/compare/07bb25745b17f456e2cf398735cc69675f5a19b9...b3776109c761e82ea181b7df894d243f33ae7c99",
+  "permalink_url": "https://github.com/src-d/lookout-test-fixtures/compare/src-d:07bb257...src-d:b377610",
+  "diff_url": "https://github.com/src-d/lookout-test-fixtures/compare/07bb25745b17f456e2cf398735cc69675f5a19b9...b3776109c761e82ea181b7df894d243f33ae7c99.diff",
+  "patch_url": "https://github.com/src-d/lookout-test-fixtures/compare/07bb25745b17f456e2cf398735cc69675f5a19b9...b3776109c761e82ea181b7df894d243f33ae7c99.patch",
+  "url": "https://api.github.com/repos/src-d/lookout-test-fixtures/compare/07bb25745b17f456e2cf398735cc69675f5a19b9...b3776109c761e82ea181b7df894d243f33ae7c99"
+}

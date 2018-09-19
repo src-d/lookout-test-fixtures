@@ -25,6 +25,13 @@ func main() {
 	fixtureList := fixtures.GetAll()
 
 	for _, fixture := range fixtureList {
+		filenamePR := fixture.FilenamePR(fixture.CurrentRevision)
+
+		if _, err := os.Stat(filenamePR); err == nil {
+			fmt.Printf("%s exists, skip\n", filenamePR)
+			continue
+		}
+
 		pr, _, err := client.PullRequests.Get(context.Background(),
 			fixture.URL.Owner, fixture.URL.Repo, fixture.URL.Number)
 		if err != nil {
@@ -37,7 +44,7 @@ func main() {
 		}
 
 		err = ioutil.WriteFile(
-			fixture.FilenamePR(fixture.CurrentRevision),
+			filenamePR,
 			data, 0644)
 		if err != nil {
 			log.Fatal(err)
