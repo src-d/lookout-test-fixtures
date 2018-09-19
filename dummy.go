@@ -6,4 +6,5 @@ package fixtures
 func NoopYes() bool {
 	// new very long comment to trigger analyzer moar moar moar text moar moar moar text
 	return true
+	// another new very long comment to trigger analyzer moar moar moar text moar moar moar text
 }
