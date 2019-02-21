@@ -181,12 +181,12 @@
   version = "v4.9.1"
 
 [[projects]]
-  digest = "1:cc43cf8db0a3af60f61a7382b745b98cef3f067636905368dcdd79175c57515a"
+  digest = "1:de45b6e52a8d24074dab7f60e23f4c21fbacae44a36c7eb29f85e763905635b4"
   name = "gopkg.in/src-d/lookout-sdk.v0"
   packages = ["pb"]
   pruneopts = "NUT"
-  revision = "16c3f752a712574f492c922cab897aa5b3709d9d"
-  version = "v0.4.1"
+  revision = "3fe28cc0d4ae4e6e0d424d8f97696e730d0cb63a"
+  version = "v0.5.0"
 
 [solve-meta]
   analyzer-name = "dep"
