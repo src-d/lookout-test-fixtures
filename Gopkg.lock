@@ -46,6 +46,14 @@
   version = "v1.0.0"
 
 [[projects]]
+  digest = "1:1b497700cbc61544430babb4e4fd4313758bb9fec7144ca50c625fa6ce8266c7"
+  name = "github.com/grpc-ecosystem/go-grpc-middleware"
+  packages = ["."]
+  pruneopts = "NUT"
+  revision = "c250d6563d4d4c20252cd865923440e829844f4e"
+  version = "v1.0.0"
+
+[[projects]]
   branch = "master"
   digest = "1:e1ca43ca8774cfff2a43265116b8ccc8221fcb994843a1124071d65dab1507e9"
   name = "github.com/mcuadros/go-lookup"
@@ -181,12 +189,12 @@
   version = "v4.9.1"
 
 [[projects]]
-  digest = "1:de45b6e52a8d24074dab7f60e23f4c21fbacae44a36c7eb29f85e763905635b4"
+  digest = "1:83e268acc352513604378544494a0a21530a6f0e6bd50c071cf3bf2dd0cea528"
   name = "gopkg.in/src-d/lookout-sdk.v0"
   packages = ["pb"]
   pruneopts = "NUT"
-  revision = "3fe28cc0d4ae4e6e0d424d8f97696e730d0cb63a"
-  version = "v0.5.0"
+  revision = "f3026a04c5fe543d526a444a75a41c4036a0a4c8"
+  version = "v0.6.1"
 
 [solve-meta]
   analyzer-name = "dep"
