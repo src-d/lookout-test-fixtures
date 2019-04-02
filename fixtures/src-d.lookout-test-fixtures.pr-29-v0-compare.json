@@ -1,0 +1,268 @@
+{
+  "base_commit": {
+    "sha": "a49b160ebe6df59bf3d4ac078e6046a46ca0362e",
+    "commit": {
+      "author": {
+        "date": "2019-03-22T17:25:29Z",
+        "name": "Carlos Martín",
+        "email": "carlosms@users.noreply.github.com"
+      },
+      "committer": {
+        "date": "2019-03-22T17:25:29Z",
+        "name": "GitHub",
+        "email": "noreply@github.com"
+      },
+      "message": "Merge pull request #28 from carlosms/lookout-sdk-0.6.1\n\nUpdate lookout-sdk dependency to 0.6.1",
+      "tree": {
+        "sha": "41b0abd7ecae4e6c848efdd24d975a3c5101eff9"
+      },
+      "url": "https://api.github.com/repos/src-d/lookout-test-fixtures/git/commits/a49b160ebe6df59bf3d4ac078e6046a46ca0362e",
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJclRqJCRBK7hj4Ov3rIwAAdHIIAHXMffqbGR4LyhiYYt0CmNU/\nkArOecauVrwtwuAlVyvAmH0kI5+TuSjgah12vcIDjlyI7IN1YB4pPWGu8hiy9h5U\nxVxQE9MHn+9cwbw+ojpOV3TVWOnbbTvVxz9RZAXFdn04tazHG/2XKEGi4q/b8p2K\ncUoGR5eVLsqfWhSZkbcssOWq8gfGxtBdeHDkggyG9w0RezLpmf200f2qyYt9CDMf\nJtroPBnvAHbEZF8esGLqvGj3jFkHE2ZIjUg8m7QnaZX/+N0Fr1tybVhjXqDHl8Pz\n0mtVRBAhOVXoSOiJg2gJ0XZICPSPBuUFgrmYBIBSx6sEl4hJYaKJCo7M1uJFOUA=\n=21aE\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 41b0abd7ecae4e6c848efdd24d975a3c5101eff9\nparent e56c92c0db9040963dd9cee228ac6299083a0a27\nparent 6a599f484df983881b719bdc995a74c3174d87cb\nauthor Carlos Martín \u003ccarlosms@users.noreply.github.com\u003e 1553275529 +0000\ncommitter GitHub \u003cnoreply@github.com\u003e 1553275529 +0000\n\nMerge pull request #28 from carlosms/lookout-sdk-0.6.1\n\nUpdate lookout-sdk dependency to 0.6.1"
+      },
+      "comment_count": 0
+    },
+    "author": {
+      "login": "carlosms",
+      "id": 1469173,
+      "node_id": "MDQ6VXNlcjE0NjkxNzM=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1469173?v=4",
+      "html_url": "https://github.com/carlosms",
+      "gravatar_id": "",
+      "type": "User",
+      "site_admin": false,
+      "url": "https://api.github.com/users/carlosms",
+      "events_url": "https://api.github.com/users/carlosms/events{/privacy}",
+      "following_url": "https://api.github.com/users/carlosms/following{/other_user}",
+      "followers_url": "https://api.github.com/users/carlosms/followers",
+      "gists_url": "https://api.github.com/users/carlosms/gists{/gist_id}",
+      "organizations_url": "https://api.github.com/users/carlosms/orgs",
+      "received_events_url": "https://api.github.com/users/carlosms/received_events",
+      "repos_url": "https://api.github.com/users/carlosms/repos",
+      "starred_url": "https://api.github.com/users/carlosms/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/carlosms/subscriptions"
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "html_url": "https://github.com/web-flow",
+      "gravatar_id": "",
+      "type": "User",
+      "site_admin": false,
+      "url": "https://api.github.com/users/web-flow",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions"
+    },
+    "parents": [
+      {
+        "sha": "e56c92c0db9040963dd9cee228ac6299083a0a27",
+        "html_url": "https://github.com/src-d/lookout-test-fixtures/commit/e56c92c0db9040963dd9cee228ac6299083a0a27",
+        "url": "https://api.github.com/repos/src-d/lookout-test-fixtures/commits/e56c92c0db9040963dd9cee228ac6299083a0a27"
+      },
+      {
+        "sha": "6a599f484df983881b719bdc995a74c3174d87cb",
+        "html_url": "https://github.com/src-d/lookout-test-fixtures/commit/6a599f484df983881b719bdc995a74c3174d87cb",
+        "url": "https://api.github.com/repos/src-d/lookout-test-fixtures/commits/6a599f484df983881b719bdc995a74c3174d87cb"
+      }
+    ],
+    "html_url": "https://github.com/src-d/lookout-test-fixtures/commit/a49b160ebe6df59bf3d4ac078e6046a46ca0362e",
+    "url": "https://api.github.com/repos/src-d/lookout-test-fixtures/commits/a49b160ebe6df59bf3d4ac078e6046a46ca0362e",
+    "comments_url": "https://api.github.com/repos/src-d/lookout-test-fixtures/commits/a49b160ebe6df59bf3d4ac078e6046a46ca0362e/comments"
+  },
+  "merge_base_commit": {
+    "sha": "a49b160ebe6df59bf3d4ac078e6046a46ca0362e",
+    "commit": {
+      "author": {
+        "date": "2019-03-22T17:25:29Z",
+        "name": "Carlos Martín",
+        "email": "carlosms@users.noreply.github.com"
+      },
+      "committer": {
+        "date": "2019-03-22T17:25:29Z",
+        "name": "GitHub",
+        "email": "noreply@github.com"
+      },
+      "message": "Merge pull request #28 from carlosms/lookout-sdk-0.6.1\n\nUpdate lookout-sdk dependency to 0.6.1",
+      "tree": {
+        "sha": "41b0abd7ecae4e6c848efdd24d975a3c5101eff9"
+      },
+      "url": "https://api.github.com/repos/src-d/lookout-test-fixtures/git/commits/a49b160ebe6df59bf3d4ac078e6046a46ca0362e",
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJclRqJCRBK7hj4Ov3rIwAAdHIIAHXMffqbGR4LyhiYYt0CmNU/\nkArOecauVrwtwuAlVyvAmH0kI5+TuSjgah12vcIDjlyI7IN1YB4pPWGu8hiy9h5U\nxVxQE9MHn+9cwbw+ojpOV3TVWOnbbTvVxz9RZAXFdn04tazHG/2XKEGi4q/b8p2K\ncUoGR5eVLsqfWhSZkbcssOWq8gfGxtBdeHDkggyG9w0RezLpmf200f2qyYt9CDMf\nJtroPBnvAHbEZF8esGLqvGj3jFkHE2ZIjUg8m7QnaZX/+N0Fr1tybVhjXqDHl8Pz\n0mtVRBAhOVXoSOiJg2gJ0XZICPSPBuUFgrmYBIBSx6sEl4hJYaKJCo7M1uJFOUA=\n=21aE\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 41b0abd7ecae4e6c848efdd24d975a3c5101eff9\nparent e56c92c0db9040963dd9cee228ac6299083a0a27\nparent 6a599f484df983881b719bdc995a74c3174d87cb\nauthor Carlos Martín \u003ccarlosms@users.noreply.github.com\u003e 1553275529 +0000\ncommitter GitHub \u003cnoreply@github.com\u003e 1553275529 +0000\n\nMerge pull request #28 from carlosms/lookout-sdk-0.6.1\n\nUpdate lookout-sdk dependency to 0.6.1"
+      },
+      "comment_count": 0
+    },
+    "author": {
+      "login": "carlosms",
+      "id": 1469173,
+      "node_id": "MDQ6VXNlcjE0NjkxNzM=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1469173?v=4",
+      "html_url": "https://github.com/carlosms",
+      "gravatar_id": "",
+      "type": "User",
+      "site_admin": false,
+      "url": "https://api.github.com/users/carlosms",
+      "events_url": "https://api.github.com/users/carlosms/events{/privacy}",
+      "following_url": "https://api.github.com/users/carlosms/following{/other_user}",
+      "followers_url": "https://api.github.com/users/carlosms/followers",
+      "gists_url": "https://api.github.com/users/carlosms/gists{/gist_id}",
+      "organizations_url": "https://api.github.com/users/carlosms/orgs",
+      "received_events_url": "https://api.github.com/users/carlosms/received_events",
+      "repos_url": "https://api.github.com/users/carlosms/repos",
+      "starred_url": "https://api.github.com/users/carlosms/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/carlosms/subscriptions"
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "html_url": "https://github.com/web-flow",
+      "gravatar_id": "",
+      "type": "User",
+      "site_admin": false,
+      "url": "https://api.github.com/users/web-flow",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions"
+    },
+    "parents": [
+      {
+        "sha": "e56c92c0db9040963dd9cee228ac6299083a0a27",
+        "html_url": "https://github.com/src-d/lookout-test-fixtures/commit/e56c92c0db9040963dd9cee228ac6299083a0a27",
+        "url": "https://api.github.com/repos/src-d/lookout-test-fixtures/commits/e56c92c0db9040963dd9cee228ac6299083a0a27"
+      },
+      {
+        "sha": "6a599f484df983881b719bdc995a74c3174d87cb",
+        "html_url": "https://github.com/src-d/lookout-test-fixtures/commit/6a599f484df983881b719bdc995a74c3174d87cb",
+        "url": "https://api.github.com/repos/src-d/lookout-test-fixtures/commits/6a599f484df983881b719bdc995a74c3174d87cb"
+      }
+    ],
+    "html_url": "https://github.com/src-d/lookout-test-fixtures/commit/a49b160ebe6df59bf3d4ac078e6046a46ca0362e",
+    "url": "https://api.github.com/repos/src-d/lookout-test-fixtures/commits/a49b160ebe6df59bf3d4ac078e6046a46ca0362e",
+    "comments_url": "https://api.github.com/repos/src-d/lookout-test-fixtures/commits/a49b160ebe6df59bf3d4ac078e6046a46ca0362e/comments"
+  },
+  "status": "ahead",
+  "ahead_by": 1,
+  "behind_by": 0,
+  "total_commits": 1,
+  "commits": [
+    {
+      "sha": "e7ec637d88e7e76034c7af3bc492836517fe654d",
+      "commit": {
+        "author": {
+          "date": "2019-04-02T12:14:58Z",
+          "name": "Maxim Sukharev",
+          "email": "maxim@sourced.tech"
+        },
+        "committer": {
+          "date": "2019-04-02T12:14:58Z",
+          "name": "GitHub",
+          "email": "noreply@github.com"
+        },
+        "message": "Update dummy.go",
+        "tree": {
+          "sha": "080dd802ad3cac431a28c7233385630e2fb1ea00"
+        },
+        "url": "https://api.github.com/repos/src-d/lookout-test-fixtures/git/commits/e7ec637d88e7e76034c7af3bc492836517fe654d",
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJco1JCCRBK7hj4Ov3rIwAAdHIIAKz7gRxIUZtMnq+W3JmyXJUR\ndDc4IO7S3QEM8y4uLBFvTAxjBmyPJFjfVidZI2BntFTtlX4LPfTGox55yxJzQJ/U\n8ERaRqGCvpJtndcRm4ujtP9msJvufh6B8e0/Kf7oYF2Bcn49esirDBKTiqgd1I5G\nr9g/HoBfHIo71QL/jknxshj7VsAJWEBM64/IVYmhONcIG9gDQQAXK3A+BmQohHJ/\nnygQcNwhonrvrfCfCVxh8FtpsxnqxG8JzIKH4GRvgpY40YVdq1UAI8D0WxFojMJ+\nd7pEi8wzNDptwHj26ffDv7dKjkvRODr5XoGCWeyUeDiDSSXy7JnoCWMnGdGjRgw=\n=a59P\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 080dd802ad3cac431a28c7233385630e2fb1ea00\nparent a49b160ebe6df59bf3d4ac078e6046a46ca0362e\nauthor Maxim Sukharev \u003cmaxim@sourced.tech\u003e 1554207298 +0200\ncommitter GitHub \u003cnoreply@github.com\u003e 1554207298 +0200\n\nUpdate dummy.go"
+        },
+        "comment_count": 0
+      },
+      "author": {
+        "login": "smacker",
+        "id": 406916,
+        "node_id": "MDQ6VXNlcjQwNjkxNg==",
+        "avatar_url": "https://avatars0.githubusercontent.com/u/406916?v=4",
+        "html_url": "https://github.com/smacker",
+        "gravatar_id": "",
+        "type": "User",
+        "site_admin": false,
+        "url": "https://api.github.com/users/smacker",
+        "events_url": "https://api.github.com/users/smacker/events{/privacy}",
+        "following_url": "https://api.github.com/users/smacker/following{/other_user}",
+        "followers_url": "https://api.github.com/users/smacker/followers",
+        "gists_url": "https://api.github.com/users/smacker/gists{/gist_id}",
+        "organizations_url": "https://api.github.com/users/smacker/orgs",
+        "received_events_url": "https://api.github.com/users/smacker/received_events",
+        "repos_url": "https://api.github.com/users/smacker/repos",
+        "starred_url": "https://api.github.com/users/smacker/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/smacker/subscriptions"
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+        "html_url": "https://github.com/web-flow",
+        "gravatar_id": "",
+        "type": "User",
+        "site_admin": false,
+        "url": "https://api.github.com/users/web-flow",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions"
+      },
+      "parents": [
+        {
+          "sha": "a49b160ebe6df59bf3d4ac078e6046a46ca0362e",
+          "html_url": "https://github.com/src-d/lookout-test-fixtures/commit/a49b160ebe6df59bf3d4ac078e6046a46ca0362e",
+          "url": "https://api.github.com/repos/src-d/lookout-test-fixtures/commits/a49b160ebe6df59bf3d4ac078e6046a46ca0362e"
+        }
+      ],
+      "html_url": "https://github.com/src-d/lookout-test-fixtures/commit/e7ec637d88e7e76034c7af3bc492836517fe654d",
+      "url": "https://api.github.com/repos/src-d/lookout-test-fixtures/commits/e7ec637d88e7e76034c7af3bc492836517fe654d",
+      "comments_url": "https://api.github.com/repos/src-d/lookout-test-fixtures/commits/e7ec637d88e7e76034c7af3bc492836517fe654d/comments"
+    }
+  ],
+  "files": [
+    {
+      "sha": "2ad87126c5fb1a5837d1663fcb2fa2c84a7843b1",
+      "filename": "dummy.go",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "status": "modified",
+      "patch": "@@ -4,5 +4,5 @@ package fixtures\n \n // NoopYes is a function that does absolutely nothing but returns true. I need to make this comment long enough so it would be catched by any linter that doesn't like long lines.\n func NoopYes() bool {\n-\treturn true\n+\treturn false\n }",
+      "blob_url": "https://github.com/src-d/lookout-test-fixtures/blob/e7ec637d88e7e76034c7af3bc492836517fe654d/dummy.go",
+      "raw_url": "https://github.com/src-d/lookout-test-fixtures/raw/e7ec637d88e7e76034c7af3bc492836517fe654d/dummy.go",
+      "contents_url": "https://api.github.com/repos/src-d/lookout-test-fixtures/contents/dummy.go?ref=e7ec637d88e7e76034c7af3bc492836517fe654d"
+    }
+  ],
+  "html_url": "https://github.com/src-d/lookout-test-fixtures/compare/a49b160ebe6df59bf3d4ac078e6046a46ca0362e...e7ec637d88e7e76034c7af3bc492836517fe654d",
+  "permalink_url": "https://github.com/src-d/lookout-test-fixtures/compare/src-d:a49b160...src-d:e7ec637",
+  "diff_url": "https://github.com/src-d/lookout-test-fixtures/compare/a49b160ebe6df59bf3d4ac078e6046a46ca0362e...e7ec637d88e7e76034c7af3bc492836517fe654d.diff",
+  "patch_url": "https://github.com/src-d/lookout-test-fixtures/compare/a49b160ebe6df59bf3d4ac078e6046a46ca0362e...e7ec637d88e7e76034c7af3bc492836517fe654d.patch",
+  "url": "https://api.github.com/repos/src-d/lookout-test-fixtures/compare/a49b160ebe6df59bf3d4ac078e6046a46ca0362e...e7ec637d88e7e76034c7af3bc492836517fe654d"
+}
